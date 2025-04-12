@@ -1,0 +1,52 @@
+{
+  "name": "teaka-trading",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "check": "npm run lint && tsc --noEmit"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@notionhq/client": "^2.2.14",
+    "@supabase/supabase-js": "^2.39.3",
+    "axios": "^1.6.7",
+    "decimal.js": "^10.4.3",
+    "firebase": "^10.8.0",
+    "framer-motion": "^11.0.3",
+    "kucoin-futures-node-api": "^1.0.7",
+    "kucoin-node-sdk": "^1.0.4",
+    "lucide-react": "^0.323.0",
+    "ml-matrix": "^6.11.0",
+    "ml-pca": "^4.1.1",
+    "ml-regression": "^5.0.0",
+    "monaco-editor": "^0.47.0",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "simple-statistics": "^7.8.3",
+    "winston": "^3.11.0",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

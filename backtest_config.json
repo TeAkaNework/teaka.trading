@@ -1,0 +1,33 @@
+{
+  "initialBalance": 10000,
+  "symbol": "BTC-USDT",
+  "timeframe": "1h",
+  "startDate": "2024-01-01",
+  "endDate": "2024-04-01",
+  "strategy": "meanReversion",
+  "riskPerTrade": 0.01,
+  "maxDrawdown": 0.1,
+  "maxExposure": 0.5,
+  "commission": 0.001,
+  "slippage": 0.0005,
+  "parameters": {
+    "meanReversion": {
+      "lookbackPeriod": 20,
+      "deviationThreshold": 2,
+      "profitTarget": 0.02,
+      "stopLoss": 0.01
+    },
+    "trendFollowing": {
+      "fastPeriod": 10,
+      "slowPeriod": 30,
+      "profitTarget": 0.03,
+      "stopLoss": 0.015
+    },
+    "breakout": {
+      "atrPeriod": 14,
+      "atrMultiplier": 2,
+      "profitTarget": 0.04,
+      "stopLoss": 0.02
+    }
+  }
+}
